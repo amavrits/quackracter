@@ -1,0 +1,14 @@
+[project]
+name = "quackracter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "litellm>=1.99.0",
+    "mjlab-microduck",
+    "python-dotenv>=1.2.3",
+]
+
+[tool.uv.sources]
+mjlab-microduck = { git = "https://github.com/pollen-robotics/microduck_rl.git" }
